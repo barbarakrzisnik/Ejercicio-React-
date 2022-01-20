@@ -1,16 +1,17 @@
-import Section from "./Section"
+import Article from "./Article"
 
 const Main = () => {
     return (
        <main>
-           <Section
-           titulo = "Seccion 1"
-           subtitulo = "Esta es la 1"
-           imagen = "https" />
-           <Section
-           titulo = "Seccion 2"
-           subtitulo = "Esta es la 2"
-           imagen = "https2" />
+           <Article 
+           titulo="Titulo 1"
+           subtitulo="Esto es un subtitulo"
+           imagen="http://placekitten.com/g/200/300"/>
+           <Article 
+           titulo="Titulo 2"
+           subtitulo="Esto es otro subtitulo"
+           imagen="http://placekitten.com/g/200/300"/>
+
        </main>
     );
 };
